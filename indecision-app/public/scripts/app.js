@@ -1,6 +1,6 @@
 'use strict';
 
-function square(number) {
-    if (number) return number * number;else return 'No number';
-}
-console.log(square(10));
+var getFirstName = function getFirstName(fullName) {
+  return fullName.split(' ')[0];
+};
+console.log(getFirstName('Garvit Khandelwal'));
