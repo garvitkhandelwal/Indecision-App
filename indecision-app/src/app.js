@@ -15,6 +15,7 @@ var template = (
         <p>{app.options.length > 0 ? 'There are some options.' : 'No options'}</p>
     </div>
 );
+
 var appRoot = document.getElementById('app');
 
-ReactDOM.render(template,appRoot);
+
