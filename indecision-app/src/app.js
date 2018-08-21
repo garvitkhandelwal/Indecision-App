@@ -37,7 +37,7 @@ var template = (
         <h1>{app.title}</h1>
         {app.subtitle && <p>{app.subtitle}</p>}
         <p>{app.options.length>0 ? 'There are some options' : 'No options LOL'}</p>
-        <button onClick={makeDecision}>What should I do?</button>
+        <button disabled={app.options.length>0 ? false : true} onClick={makeDecision}>What should I do?</button>
         <button onClick={onRemoveAll}>Remove All</button>
         <form onSubmit={onFormSubmit}>
             <input type='text' name='option'/>
