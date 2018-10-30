@@ -13,5 +13,5 @@ It is a basic app where you can view the mess menu and provide feedback regardin
 - The data collected from your responses will be used to calculate the estimate of students going to the mess to have that meal.
 
 ### How to install
-- Allow your android phone to install apps from unknown sources in the settings. You can learn it from [here](https://android.gadgethacks.com/how-to/android-basics-enable-unknown-sources-sideload-apps-0161947/)
+- Allow your android phone to install apps from unknown sources in the settings. You can learn it from [here](https://android.gadgethacks.com/how-to/android-basics-enable-unknown-sources-sideload-apps-0161947/).
 - Just install the apk and get started.
