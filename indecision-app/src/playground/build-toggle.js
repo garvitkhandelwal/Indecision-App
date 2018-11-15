@@ -2,10 +2,6 @@ var appRoot = document.getElementById('app');
 let visibility = false;
 const onButtonClick = () => {
     visibility = !visibility;
-    if(visibility === true)
-        {
-            <p>'These are some of the details.'</p>
-        }
     render();
 };
 
